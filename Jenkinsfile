@@ -6,6 +6,7 @@ pipeline {
                   sh "pwd"
                   sh "ant -version"
             }
+	}
         stage('Build') {
             steps {
                   sh "pwd"
@@ -14,3 +15,4 @@ pipeline {
         }
    }
 }
+
